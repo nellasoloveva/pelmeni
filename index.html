@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sicilian Pizzeria</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/main2.js" defer></script>
+</head>
+<body>
+    <div class="yy"><h2>Sicilian Pizzeria</h2></div>
+    <div class="gridPr">
+        <div class="product" data-id="01">
+            <div class="productImg"><img class="prImg" src="img/XXL.jfif"></div>
+            <div class="s">
+                <a href="products/product1/index.html" class="aaaa"><div class="nameProduct" id="nameProduct">Примакрема</div></a>
+                <div class="r">
+                    <div class="priceProduct">670</div>
+                    <div class="u">$</div>
+                </div>
+                <div class="descriptionProduct" >Сыр Моцарелла, пюре из кабачка, кабачок, сливки, цедра лимона, сыр Пармезан</div>
+                <div class="counter">
+                    <button class="plus" id="plus" data-action="plus">+</button>
+                    <div class="start" id="counterNum" data-counter>1</div>
+                    <button class="minus" id="minus" data-action="minus">-</button>
+                </div>
+                <div class="addProduct"><button class="addProductBtn" id="addProductBtn">Добавить в корзину</button></div>
+            </div>
+        </div>
+        <div class="product" data-id="02">
+            <div class="productImg"><img class="prImg" src="img/XXL (1).jfif"></div>
+            <div class="s"> 
+                <a href="products/product2/index.html" class="aaaa"><div class="nameProduct" id="nameProduct">Мортаделла & рикотта</div></a>
+                <div class="r">
+                    <div class="priceProduct">1100</div>
+                    <div class="u">$</div>
+                </div>
+                <div class="descriptionProduct" >Мортаделла (итальянская ветчина), сыр Моцарелла, рикотта, лимон, рукола</div>
+                <div class="counter">
+                    <button class="plus" id="plus" data-action="plus">+</button>
+                    <div class="start" id="counterNum" data-counter>1</div>
+                    <button class="minus" id="minus" data-action="minus">-</button>
+                </div>
+                <div class="addProduct"><button class="addProductBtn" id="addProductBtn">Добавить в корзину</button></div>
+            </div>
+        </div>
+        <div class="product" data-id="03">
+            <div class="productImg"><img class="prImg" src="img/XXL (2).jfif"></div>
+            <div class="s">   
+                <a href="products/product3/index.html" class="aaaa"><div class="nameProduct" id="nameProduct">Меззалуна рикотта & чиполла</div></a>
+                <div class="r">
+                    <div class="priceProduct">690</div>
+                    <div class="u">$</div>
+                </div>
+                <div class="descriptionProduct">Cыр Моцарелла, сыр Рикотта, лук репчатый, пармезан</div>
+                <div class="counter">
+                    <button class="plus" id="plus" data-action="plus">+</button>
+                    <div class="start" id="counterNum" data-counter>1</div>
+                    <button class="minus" id="minus" data-action="minus">-</button>
+                </div>
+                <div class="addProduct"><button class="addProductBtn" id="addProductBtn">Добавить в корзину</button></div>
+            </div>
+        </div>
+        <div class="product" data-id="04">
+            <div class="productImg"><img class="prImg" src="img/XXL (3).jfif"></div>
+            <div class="s">
+                <a href="products/product4/index.html" class="aaaa"><div class="nameProduct" id="nameProduct" >Ал тонно</div></a>
+                <div class="r">
+                    <div class="priceProduct">690</div>
+                    <div class="u">$</div>
+                </div>
+                <div class="descriptionProduct">Тунец консервированный, лук, бальзамический уксус, каперсы, сицилийское оливковое масло, томатный соус</div>
+                <div class="counter">
+                    <button class="plus" id="plus" data-action="plus">+</button>
+                    <div class="start" id="counterNum" data-counter>1</div>
+                    <button class="minus" id="minus" data-action="minus">-</button>
+                </div>
+                <div class="addProduct"><button class="addProductBtn" id="addProductBtn">Добавить в корзину</button></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="bascket" id="bascket">
+            <h2>Корзина</h2>
+            <div id="empty">ваша корзина пуста</div>
+            <ul id="productList">
+                
+            </ul> 
+            <div id="totalDiv"></div>
+            <div class="delivery" id="delivery"></div>
+            <div id="oo"></div>
+        </div>
+</body>
+</html>
